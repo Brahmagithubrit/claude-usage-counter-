@@ -9,3 +9,8 @@ window.addEventListener("message", (event) => {
     handleUsage(event.data.payload);
   }
 });
+
+function handleUsage(text) {
+    const data = extractUsage(text)
+    if (data) renderUI(data)
+}
