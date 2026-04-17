@@ -1,4 +1,3 @@
-/* Main container */
 #claude-counter {
   position: fixed;
   top: 12px;
@@ -19,14 +18,12 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
-/* Section labels */
 .counter-label {
   font-size: 12px;
   margin-bottom: 4px;
   opacity: 0.8;
 }
 
-/* Progress bar container */
 .counter-bar {
   width: 100%;
   height: 6px;
@@ -36,7 +33,6 @@
   margin-bottom: 8px;
 }
 
-/* Progress fill */
 .counter-fill-5h {
   height: 100%;
   background: #4ade80;
@@ -47,4 +43,7 @@
   height: 100%;
   background: #f59e0b;
   transition: width 0.3s ease;
+}
+#claude-counter:hover {
+  transform: scale(1.03);
 }
