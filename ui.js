@@ -8,14 +8,7 @@ function renderUI(data) {
   }
 
   el.innerHTML = `
-    <div class="counter-label">5h Usage: ${data.fiveHour}%</div>
-    <div class="counter-bar">
-      <div class="counter-fill-5h" style="width:${data.fiveHour}%"></div>
-    </div>
-
-    <div class="counter-label">Weekly Usage: ${data.week}%</div>
-    <div class="counter-bar">
-      <div class="counter-fill-week" style="width:${data.week}%"></div>
-    </div>
+    <div>5h: ${data.fiveHour}%</div>
+    <div>Week: ${data.week}%</div>
   `;
 }

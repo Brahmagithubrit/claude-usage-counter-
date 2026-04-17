@@ -2,20 +2,13 @@
   "manifest_version": 3,
   "name": "Claude Usage Counter",
   "version": "1.0",
-  "description": "Track Claude usage with progress bar",
-  "permissions": ["storage", "scripting"],
+  "permissions": ["storage"],
   "host_permissions": ["https://claude.ai/*"],
   "content_scripts": [
     {
       "matches": ["https://claude.ai/*"],
-      "js": ["content.js"],
-      "css" : ["styles.css"]
-    }
-  ],
-  "web_accessible_resources": [
-    {
-      "resources": ["inject.js"],
-      "matches": ["https://claude.ai/*"]
+      "js": ["utils.js", "ui.js", "content.js"],
+      "css": ["styles.css"] 
     }
   ]
 }
