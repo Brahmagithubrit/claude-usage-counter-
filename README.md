@@ -1,7 +1,6 @@
 # Claude Usage Counter Chrome Extension
 
 A lightweight Chrome extension that displays your Claude session usage (5-hour and weekly limits) directly inside the Claude interface.
-
 ##  Why this exists
 
 When using Claude, it's easy to waste usage on low-value prompts without realizing how much quota is left.
@@ -11,6 +10,9 @@ This extension helps you:
 * Track session usage in real time
 * Avoid wasting tokens on unnecessary prompts
 * Make smarter, more efficient queries
+<p align="center">
+  <img src="./claude.png" width="1000" style="border:1px solid #d0d7de; border-radius:6px;" />
+</p>
 
 ---
 
