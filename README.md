@@ -11,7 +11,7 @@ This extension helps you:
 * Avoid wasting tokens on unnecessary prompts
 * Make smarter, more efficient queries
 <p align="center">
-  <img src="./claude.png" width="1000" style="border:1px solid #d0d7de; border-radius:6px;" />
+  <img src="./claude2.png" width="1000" style="border:1px solid #d0d7de; border-radius:6px;" />
 </p>
 
 ---
